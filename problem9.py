@@ -1,3 +1,2 @@
-rupees= int(input("enter rupees: "))
-dollars=rupees/48
-print("the dollars are =",dollars)
+n=int(input("Enter the number:-"))
+l1=

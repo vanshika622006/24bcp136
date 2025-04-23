@@ -1,4 +1,3 @@
-a= int(input("enter the number a: "))
-b= int(input("enter the number b: "))
-c=a-b
-print("the answer is",c)
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
