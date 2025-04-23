@@ -1,7 +1,4 @@
-bytes= int(input("enter bytes: "))
-kb=bytes/1024
-print("kb=",kb)
-mb=bytes/(1024*1024)
-print("mb=",mb)
-gb=bytes/(1024*1024*1024)
-print("gb=",gb)
+faculty = ["Rahil", "Het", "Ankur", "Rama", "Vima", "Abhishek"]
+filtered = list(filter(lambda name: len(name) > 8, faculty))
+print(filtered)
+
